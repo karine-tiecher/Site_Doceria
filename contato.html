@@ -1,35 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Contato</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Doce Encanto</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>Fale Conosco 📞</h1>
+    <div class="logo">Doceria da kah🍰</div>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="cardapio.html">Cardápio</a>
+        <a href="contato.html">Contato</a>
+    </nav>
 </header>
 
-<nav>
-    <a href="index.html">Início</a>
-    <a href="produtos.html">Produtos</a>
-    <a href="contato.html">Contato</a>
-</nav>
+<section class="contato">
+    <h1>Entre em Contato</h1>
 
-<div class="container">
+    <form>
+        <input type="text" placeholder="Seu nome" required>
 
-    <h2>Entre em contato</h2>
-    <p>📱 WhatsApp: (46)99906-7890</p>
-    <p>📧 Email: doceriadelicia@email.com</p>
-    <p>📍 Endereço: Centro da cidade</p>
+        <input type="email" placeholder="Seu e-mail" required>
 
-    <img src="https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1" width="100%" style="border-radius:10px;">
+        <textarea rows="5" placeholder="Sua mensagem"></textarea>
 
-</div>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <div class="info">
+        <p>📍 Rua das Delícias, 123</p>
+        <p>📞 (46) 99920-9780</p>
+        <p>✉ contato@doceencanto.com</p>
+    </div>
+</section>
 
 <footer>
-    © 2026 Doceria Delícia
+    <p>© 2025 Doce Encanto - Todos os direitos reservados.</p>
 </footer>
 
 </body>
